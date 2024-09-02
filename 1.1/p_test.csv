@@ -1,0 +1,11 @@
+KNN,GBT,NB,SVC,RF,DT,MLR
+B+,A,D,A,A,A,A
+A,A,D,A,A,A,A
+A,B+,D,B+,A,A,B
+A,A,D,A,B-,B-,A
+B+,B+,D,B+,B+,B+,B+
+D,F,D,C,D,D,C
+B,B,C,B,B,B,B
+B+,B+,D,B+,B+,B+,B+
+B+,B+,D,B+,B+,B+,B
+A,B+,D,A,B,A,A
