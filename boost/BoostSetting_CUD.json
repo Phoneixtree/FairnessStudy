@@ -1,0 +1,17 @@
+{
+    "prediction":"../data/prediction_CUD.csv",
+    "train_data":"../data/train_data_CUD.csv",
+    "actual":"../data/true_level_CUD.csv",
+    "prediction_numerical":"../data/prediction_numerical.csv",
+
+    "level_weight":[3.85,3.5,3.15,2.85,2.2,1.35,0],
+    "level_length":7,
+
+    "data_size":545, 
+    "fetch_size":10,
+    
+    "comparison_result":"../data/final_comparison.csv",
+    "comparison_trail":"../data/comparison_trail.csv",
+
+    "sensitive_attribute":"Admission_Channel"
+}
