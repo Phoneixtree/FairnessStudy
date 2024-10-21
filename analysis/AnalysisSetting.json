@@ -1,0 +1,6 @@
+{
+    "comparison_result":"comparison.csv",
+    "tmp_comparison":"tmp_comparison.csv",
+    "train_data":"train_data1.csv",
+    "sensitive_attribute":"Admission_Channel"
+}
