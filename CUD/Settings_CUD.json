@@ -1,0 +1,36 @@
+{
+    "Section0":"CUD",
+    "data_size":545,
+    "fetch_size":10,
+    "levels":["A","B+","B","B-","C","D","F"],
+    "(discarded)level_weight":[3.85,3.50,3.15,2.85,2.20,2.00,0.00],
+    "level_weight":[0.836,0.569,0.375,0.226,0.107,0.070,0.013],
+    "level_length":7,
+
+    "Section1":"preprocess",
+    "path_to_predicted":"./data/predicted_CUD.csv",
+    "path_to_train_data":"./data/train_data_CUD.csv",
+    "path_to_actual":"./data/true_level_CUD.csv",
+    "path_to_predicted_numerical":"./data/predicted_numerical.csv",
+    "zoom_factor":1,
+
+    "Section2":"boost",    
+    "alpha":0.10,
+    "path_to_final_result":"/data/final_comparison.csv",
+    "path_to_comparison_trail":"/data/comparison_trail.csv",
+
+    "Section3":"Fairness",
+    "sensitive_attribute":"Admission_Channel",
+    "sensitive_groups":["1","3","4","7","9"],
+    "level_catagory":[1.000,0.672,0.466,0.283,0.169,0.044,0.026],
+
+    "Section4":"Matrix",
+    "relation_matrix":[[1.000,0.000,0.000,0.000,0.000,0.000,0.000],
+                        [0.000,1.000,0.000,0.000,0.000,0.000,0.000],
+                        [0.000,0.000,1.000,0.000,0.000,0.000,0.000],
+                        [0.000,0.000,0.000,1.000,0.000,0.000,0.000],
+                        [0.000,0.000,0.000,0.000,1.000,0.000,0.000],
+                        [0.000,0.000,0.000,0.000,0.000,1.000,0.000],
+                        [0.000,0.000,0.000,0.000,0.000,0.000,1.000]
+    ]
+}
